@@ -111,6 +111,27 @@ app.get('/ride', function(req, res){
 });
 
 
+//var geolocation = require('node-geolocation');
+/*
+var GooglePlaces = require('google-places');
+
+var places = new GooglePlaces('AIzaSyD0GEzAGID9cgGDwhrQ_N4kCwyisJjFIo0');
+
+places.search({keyword: 'Public Building Near Me'}, function(err, response) {
+  console.log("search: ", response.results);
+
+  places.details({reference: response.results[0].reference}, function(err, response) {
+    console.log("search details: ", response.result.website);
+    // search details:  http://www.vermonster.com/
+  });
+}); */
+/*
+function onPositionUpdate(position)
+        {
+            var lat = position.coords.latitude;
+            var lng = position.coords.longitude;
+            alert("Current position: " + lat + " " + lng);
+        }
 
 
 /*
